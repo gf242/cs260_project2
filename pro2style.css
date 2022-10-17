@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  font-size: 16px;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  color: var(--color-main);
+  font-family: var(--font-header);
+  margin: 0;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+#header-p {
+  font-family: var(--font-header);
+  text-align: center;
+  padding: 1rem;
+}
+
+:root {
+  --color-main: #32a6ff;
+  --color-bg-main: white;
+  --font-header: 'Julius Sans One', sans-serif;
+  --font-quote: 'Pinyon Script', cursive;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.spacer {
+  height: 3rem;
+  width: 100%;
+}
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  text-align: center;
+
+  height: 5rem;
+
+  font-family: var(--font-header);
+
+}
+
+@media only screen and (min-width: 700px) {
+  .page {
+    padding: 0 30%;
+  }
+}
