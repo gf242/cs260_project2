@@ -12,9 +12,6 @@ html, body {
   padding: 0;
 }
 
-body {
-  position: relative;
-}
 
 h1 {
   color: var(--color-main);
@@ -30,12 +27,6 @@ h1 {
   padding: 1rem;
 }
 
-:root {
-  --color-main: #32a6ff;
-  --color-bg-main: white;
-  --font-header: 'Julius Sans One', sans-serif;
-  --font-quote: 'Pinyon Script', cursive;
-}
 
 .page {
   width: 100%;
